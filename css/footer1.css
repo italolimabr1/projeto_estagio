@@ -1,0 +1,26 @@
+.footerUm {
+    display: flex;
+    flex-direction: row;
+    padding: 54px;
+    justify-content: space-between;
+    background: #ffffff;
+    width: 100%;
+    height: 42px;
+    font-weight: 700;
+    font-size: 33px;
+    color: #ffffff;
+}
+
+.footerUm .brand {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: black;
+}
+
+.footerUm .brand .face .insta .twitter {
+    padding: 5%;
+}
