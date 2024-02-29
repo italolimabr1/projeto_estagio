@@ -39,7 +39,7 @@
 }
 
 .navbarBranca .colapsar .links ul li {
-    padding: 8px; /* Alterado de 0.5rem para 8px */
+    padding: 8px;
 }
 
 .navbarBranca .colapsar .links ul li a {
@@ -72,10 +72,6 @@
     text-decoration: none;
     color: #23a6f0;
 }
-
-/* .navbar-light .collapse .login-search ul li a:hover {
-    color: var(--primary-color-hover);
-} */
 
 .entradaEscolhas {
     display: flex;

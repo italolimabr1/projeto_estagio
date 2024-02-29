@@ -71,14 +71,14 @@ a {
         flex-direction: column;
         height: auto;
     }
-    
+
     .navbarPreta .contato,
     .navbarPreta .midiasSociais {
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
     }
-    
+
     .navbarPreta .midiasSociais ul {
         flex-direction: column;
         align-items: flex-start;
