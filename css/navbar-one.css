@@ -1,0 +1,87 @@
+.navbarPreta {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: space-between;
+    background: #252B42;
+    width: 100%;
+    height: 58px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff
+}
+
+.navbarPreta .contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarPreta .contato .fone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    letter-spacing: 1px;
+}
+
+.navbarPreta .midiasSociais h6 span {
+    padding-left: 8px;
+}
+
+.navbarPreta .midiasSociais ul {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.navbarPreta .midiasSociais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.navbarPreta .contato .email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+h6 a {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .navbarPreta {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .navbarPreta .contato,
+    .navbarPreta .midiasSociais {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .navbarPreta .midiasSociais ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
