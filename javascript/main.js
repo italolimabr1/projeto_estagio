@@ -1,5 +1,5 @@
 // CARROSSEL
-$('.carousel').slick({
+('.carousel').slick({
     dots: true,
     infinite: true,
     speed: 300,
