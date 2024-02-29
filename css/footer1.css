@@ -13,7 +13,6 @@
 
 .footerUm .brand {
     display: flex;
-    justify-content: flex-end;
     font-weight: 700;
     font-size: 34px;
     line-height: 32px;
@@ -21,6 +20,6 @@
     color: black;
 }
 
-.footerUm .brand .face .insta .twitter {
+.footerUm .socialMedia {
     padding: 5%;
 }
